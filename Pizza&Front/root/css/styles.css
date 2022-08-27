@@ -1,0 +1,118 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Navegación */
+
+body {
+  background-color: #e5e5e5;
+}
+
+header {
+  background-color: #222222;
+  display: flex;
+  justify-content: space-between;
+}
+
+header ul {
+  display: flex;
+  align-items: center;
+}
+
+header ul li {
+  color: #ffffff;
+  margin: 10px;
+  list-style: none;
+}
+
+/* Main */
+
+main {
+  display: flex;
+  justify-content: space-around;
+}
+
+.promocion-uno {
+  background-image: url("../img/delivery.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 890px;
+  height: 750px;
+  border-radius: 4%;
+}
+
+.promocion-uno h2 {
+  padding-top: 20px;
+  color: red;
+  font-size: 30px;
+  text-align: center;
+}
+
+.promocion-uno h2 span {
+  color: #ffffff;
+  font-size: 30px;
+  text-align: center;
+}
+
+#toppizza {
+  background-color: #ffffff;
+  width: 890px;
+  height: 750px;
+  border-radius: 4%;
+}
+
+#toppizza h2 {
+  padding-top: 20px;
+  color: red;
+  font-size: 30px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.contenedor-top-5-pizzas {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 800px;
+  height: 550px;
+}
+
+.top-5 {
+  padding: 40px;
+}
+
+.top-5 h3 {
+  font-size: 25px;
+}
+
+.top-5 ol {
+  line-height: 25px;
+}
+
+.top-5 ol li {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+/* Footer */
+
+footer {
+  padding: 15px;
+  background-color: #222222;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer ul {
+  display: flex;
+  flex-direction: column;
+}
+
+footer ul li {
+  color: #ffffff;
+  padding: 4px;
+  list-style: none;
+}
