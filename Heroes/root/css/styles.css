@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.top_div{
+    background-color: #D1891C;
+    padding: 10px;
+}
+
+.top_div p{
+    font-weight: 400;
+    line-height: 56px;
+    font-size: 35px;
+    margin-left: 10px;
+    color: #333333;
+}
+
+header {
+    background-color: #00669F;
+    padding: 10px;
+}
+
+header h1{
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 56px;
+    margin-left: 10px;
+    color: #FFFFFF; 
+}
+
+main {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2rem 2rem;
+}
+
+.container {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+    margin: 1rem;
+    width: 300px;
+    background-color: #F3F3F3;
+}
+
+.banner-img-batman{
+    position: absolute;
+    background-image: url('../img/fondo_batman.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 10rem;
+    width: 100%;
+}
+
+.banner-img-mujermaravilla{
+    position: absolute;
+    background-image: url('../img/fondo_mujermaravilla.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 10rem;
+    width: 100%;
+}
+
+.banner-img-superman{
+    position: absolute;
+    background-image: url('../img/fondo_superman.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 10rem;
+    width: 100%;
+}
+
+.banner-img-harleyquinn{
+    position: absolute;
+    background-image: url('../img/fondo_harleyquinn.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 10rem;
+    width: 100%;
+}
+
+.character-img{
+    width: 8rem;
+    clip-path: circle(60px at center);
+    margin-top: 4.5rem;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.description{
+    margin: 1rem 2rem;
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    text-align: center;
+}
+
+.btn{
+    font-size: 1rem;
+    border-radius: 7px;
+    background-color: #00669F;
+    color: #FFFFFF;
+    font-weight: bold;
+    width: 180px; 
+    padding: 1rem;
+}
+
+footer {
+    background-color: #00669F;
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p{
+    text-align: center;
+    font-size: 25px;
+    padding: 40px;
+    color: #FFF9F9;
+    width: 100%;
+}
+
+footer a img{
+    width: 100px;
+}
+
+/* Medidas Mobile */
+
+@media screen and (max-width:767px){
+    main{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+footer p{
+    font-size: 18px;
+}
+
+footer img{
+    width: 70px;
+}
+
+/* Medidas Tablet */
+@media screen and (max-width:1279px){
+main {
+    flex-wrap: wrap;
+}
+}
