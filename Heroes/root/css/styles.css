@@ -170,6 +170,17 @@ footer img{
     }
 }
 
+@media screen and (min-width:326px){
+    header h1{
+        font-size: 35px;
+    }
+
+    main {
+        position: relative;
+        right: 10px;
+    }
+}
+
 /* Medidas Tablet */
 @media screen and (max-width:1279px){
 main {
