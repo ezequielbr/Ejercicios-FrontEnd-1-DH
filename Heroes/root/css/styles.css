@@ -37,6 +37,7 @@ main {
     display: flex;
     justify-content: space-evenly;
     margin: 2rem 2rem;
+    flex-wrap: wrap;
 }
 
 .container {
@@ -119,7 +120,7 @@ h2 {
 
 footer {
     background-color: #00669F;
-    padding: 20px;
+    padding: 10px;
     width: 100%;
     display: flex;
     align-items: center;
@@ -129,7 +130,7 @@ footer {
 footer p{
     text-align: center;
     font-size: 25px;
-    padding: 40px;
+    padding: 20px;
     color: #FFF9F9;
     width: 100%;
 }
@@ -138,52 +139,49 @@ footer a img{
     width: 100px;
 }
 
-/* Medidas Mobile */
+/* Mobile */
 
-@media screen and (max-width:767px){
+@media (max-width: 460px){
+    
+    .top_div p{
+        font-size: 20px;
+    }
+
+    header h1{
+    font-size: 30px;
+    }
+
     main{
         flex-direction: column;
-        align-items: center;
-    }
-}
-
-footer p{
-    font-size: 18px;
-}
-
-footer img{
-    width: 70px;
-}
-
-@media screen and (max-width:580px){
-    footer {
-        padding: 10px;
     }
 
     footer p{
-        font-size: 10px;
-        padding: 5px;
+        font-size: 13px;
+        padding: 0px;
     }
 
     footer a img{
-        width: 60px;
+        width: 13vw;
     }
 }
 
-@media screen and (min-width:326px){
+/* Tablet */
+
+@media (max-width: 768px){
+    .top_div p{
+        font-size: 30px;
+    }
+
     header h1{
-        font-size: 35px;
+    font-size: 40px;
     }
 
-    main {
-        position: relative;
-        right: 10px;
+    footer p{
+        font-size: 20px;
+        padding: 0px;
     }
-}
 
-/* Medidas Tablet */
-@media screen and (max-width:1279px){
-main {
-    flex-wrap: wrap;
-}
+    footer a img{
+        width: 10vw;
+    }
 }
